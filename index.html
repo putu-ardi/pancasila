@@ -400,7 +400,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             // --- Gemini API Call Function ---
             const callGeminiAPI = async (prompt, systemInstruction = "You are a helpful assistant for a Pancasila education app.", useSearch = false) => {
-                const apiKey = "AIzaSyAJTN1yEZ1iPl-o8vKlcSj6wIjgPORS5AQ"; // API key is handled by the environment
+                const apiKey = ""; // API key is handled by the environment
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
                 const payload = {
